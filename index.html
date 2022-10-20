@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="https://i.postimg.cc/FKfvHWHF/Texas-Flag.png">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+
+        <title>Rosenbucks Bank</title>
+    </head>
+    <body id="bootstrap-overrides">
+        <h1>Rosenbucks Bank</h1>
+
+        <h5>Add a new student:</h5>
+
+        <form id="studentAdder" class="form-group">
+          <label for="firstName">First Name:</label>
+          <input type="text" class="form-control" id="firstName" placeholder="First Name">
+
+          <label for="lastName">Last Name:</label>
+          <input type="text" class="form-control" id="lastName" placeholder="Last Name">
+
+
+          <label for="rosenbucks">Amount of Rosenbucks:</label>
+          <input type="text" class="form-control" id="rosenbucks" placeholder="Amount of Rosenbucks">
+
+          <label for="period">Class Period:</label>
+          <input type="text" class="form-control" id="period" placeholder="Class Period">
+
+          <input type="submit" class="submitButton" value="Add New Student">
+        </form>
+
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th scope="col">Student Name</th>
+              <th scope="col">Rosenbucks</th>
+              <th scope="col">Privileges</th>
+              <th scope="col">Period</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Darwin</th>
+              <td class="Rosenbucks">30</td>
+              <td class="Privileges">Unlimited Rosenbucks</td>
+              <td class="Period">1</td>
+            </tr>
+            <tr>
+              <th scope="row">Josh</th>
+              <td class="Rosenbucks">20</td>
+              <td class="Privileges">None</td>
+              <td class="Period">4</td>
+            </tr>
+            <tr>
+              <th scope="row">Andrew</th>
+              <td class="Rosenbucks">23</td>
+              <td class="Privileges">None</td>
+              <td class="Period">7</td>
+            </tr>
+          </tbody>
+        </table>       
+          
+          <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+          <script src="main.js"></script>
+    </body>
+</html>
