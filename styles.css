@@ -1,2 +1,32 @@
-﻿body {
+﻿#bootstrap-overrides table {
+    width: 75vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+h5 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.submitButton {
+    margin-left: auto;
+    margin-right: auto;
 }
